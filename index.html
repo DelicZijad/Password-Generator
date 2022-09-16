@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="app.js"></script>
+</head>
+<body>
+    <main>
+        <section class="content">
+            <h2 class="content--title">
+                password generator
+            </h2>
+            <div class="content--result" id="result"></div>
+            <div class="content--option">
+                <label for="numbers" class="content--lbl">Numbers</label>
+                <input type="checkbox" name="numbers" id="numbers">
+            </div>
+            <div class="content--option">
+                <label for="symbols" class="content--lbl">Symbols</label>
+                <input type="checkbox" name="symbols" id="symbols">
+            </div>
+            <div class="content--option">
+                <label for="upperCase" class="content--lbl">Uppercase letters</label>
+                <input type="checkbox" name="upperCase" id="upperCase">
+            </div>
+            <div class="content--option">
+                <label for="lowerCase" class="content--lbl">Lowercase letters</label>
+                <input type="checkbox" name="lowerCase" id="lowerCase">
+            </div>
+            <div class="content--option">
+                <label for="length" class="content--lbl">Length</label>
+                <input type="number" name="length" id="length" min="8" max="24">
+            </div>
+        <button class="content--button" id="generate">generate password</button>
+        </section>
+    </main>
+</body>
+</html>
